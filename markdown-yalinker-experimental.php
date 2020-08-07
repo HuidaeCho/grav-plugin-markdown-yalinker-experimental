@@ -4,7 +4,7 @@ namespace Grav\Plugin;
 use Grav\Common\Plugin;
 use RocketTheme\Toolbox\Event\Event;
 
-class MarkdownYalinkerPlugin extends Plugin
+class MarkdownYalinkerExperimentalPlugin extends Plugin
 {
     public static function getSubscribedEvents()
     {
@@ -50,10 +50,10 @@ class MarkdownYalinkerPlugin extends Plugin
     //
     // write_markdown_links: true
     //
-    // in user/config/plugins/markdown-yalinker.yaml
+    // in user/config/plugins/markdown-yalinker-experimental.yaml
     public function onPageInitialized()
     {
-        $this->write_markdown_links = $this->config->get('plugins.markdown-yalinker.write_markdown_links');
+        $this->write_markdown_links = $this->config->get('plugins.markdown-yalinker-experimental.write_markdown_links');
         if (!$this->write_markdown_links)
             return;
 
