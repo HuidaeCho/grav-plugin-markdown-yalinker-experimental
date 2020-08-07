@@ -1,0 +1,4 @@
+en:
+  PLUGIN_MARKDOWN_YALINKER:
+    WRITE_MARKDOWN_LINKS: 'Write Markdown links (EXPERIMENTAL)'
+    WRITE_MARKDOWN_LINKS_HELP: 'YALinks will be written as Markdown links; This feature is HIGHLY experimental and can break inline/block code syntax'
